@@ -11,6 +11,7 @@ body{
     align-items: center;
     padding: 10px;
     background: linear-gradient(100deg, rgb(212, 123, 20), rgb(8, 130, 230));
+    
 }
 .container{
     max-width: 700px;
@@ -96,4 +97,16 @@ body{
 }
 textarea{
     resize: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    /* float: right; */
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    letter-spacing: 3px;
+    transform: translateX(1850%);
 }

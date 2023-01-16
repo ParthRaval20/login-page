@@ -31,18 +31,12 @@ nav {
 .nav-links ul li {
     list-style: none;
     display: inline-block;
-    padding: 8px 12px;
+    padding: 6px 12px;
     position: relative;
 }
 
 .nav-links ul li a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
-}
-#right{
-    display: inline-block;
-    text-align: right;
-    padding-left: 1220px;
-    justify-items: right;
+    font-size: 18px;
 }
