@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background: linear-gradient(138deg, rgb(212, 123, 20), rgb(8, 130, 230));
+    background:linear-gradient(138deg, rgba(252,128,56,255), rgba(30,35,35,255));
 }
 .container{
     max-width: 700px;
@@ -33,7 +33,7 @@ body{
     width: 75px;
     border-radius: 5px;
     height: 3px;
-    background: linear-gradient(138deg, rgb(212,123,20), rgb(8,130,230));
+    background: linear-gradient(138deg, rgba(252,128,56,255), rgba(30,35,35,255));
 }
 .user-detail{
     display: flex;
@@ -61,7 +61,7 @@ body{
     transition: 0.5s;
 }
 .input-box :focus, .input-box :valid{
-    border-color: rgb(8, 130, 230);
+    border-color: rgba(30,35,35,255);
 }
 .button{
    height: 45px; 
@@ -80,10 +80,10 @@ body{
     letter-spacing: 1px;
     background: transparent;
     color: black;
-    border: 1px solid rgb(8, 130, 230);
+    border: 1px solid rgba(30,35,35,255);
 }
 .button input:hover{
-    background: linear-gradient(138deg, rgb(8,130,230), rgb(212,123,20));
+    background: linear-gradient(138deg, rgba(30,35,35,255), rgba(252,128,56,255));
     transition: 0.5s ease-in-out;
     color: white;
     
@@ -116,5 +116,19 @@ a{
     width: 48px;
     border-radius: 5px;
     height: 3px;
-    background: linear-gradient(138deg, rgb(212,123,20), rgb(8,130,230));
+    background: linear-gradient(138deg, rgba(252,128,56,255), rgba(30,35,35,255));
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    /* float: right; */
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    letter-spacing: 3px;
+    transform: translateX(1600%);
+    margin-bottom: 1100%;
+    margin-right: 500%;
 }
