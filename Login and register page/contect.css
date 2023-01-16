@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(100deg, rgb(212, 123, 20), rgb(8, 130, 230));
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+    background-color: white;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 6px 5px 8px;
+}
+.contect{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0 12px 0;
+}
+.form-info{
+    width: calc(55% - 20px);
+    margin-bottom: 15px;
+    text-align: center;
+}
+.form-info label{
+    display: block;
+    margin-bottom: 1px;
+    margin-top: -10px;
+}
+.form-info input{
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: 0.5s;
+}
+.form-info :focus, .form-info :valid{
+    border-color: rgb(8, 130, 230);
+}
+.button{
+    height: 45px;
+    margin: 45px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background: transparent;
+    color: black;
+    border:1px solid rgb(8, 130, 230)
+}
+.button input:hover{
+    background: linear-gradient(138deg, rgb(8,130,230), rgb(212,123,20));
+    transition: 0.5s ease-in-out;
+    color: white;
+}
+.title{
+    position: relative;
+    font-size: 25px;
+    text-shadow: 0px 0px 2px;
+}
+.title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 75px;
+    border-radius: 5px;
+    height: 3px;
+    background-color:linear-gradient(138deg, rgb(212,123,20), rgb(8,130,230));
+}
+.contect{
+    align-items: center;
+    /* border: 1px solid black; */
+    justify-content: center;
+}
+textarea{
+    resize: none;
+}
