@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background:  linear-gradient(138deg, rgba(252,128,56,255), rgba(30,35,35,255));
+    
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+    background-color: white;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 6px 5px 8px;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0 12px 0;
+}
+.form-info{
+    width: calc(55% - 20px);
+    margin-bottom: 15px;
+    text-align: center;
+}
+.form-info label{
+    display: block;
+    margin-bottom: 1px;
+    margin-top: -10px;
+}
+.form-info input{
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: 0.5s;
+}
+.form-info :focus, .form-info :valid{
+    border-color: rgba(30,35,35,255);
+}
+.button{
+    height: 45px;
+    margin: 45px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background: transparent;
+    color: black;
+    border:1px solid rgba(30,35,35,255);
+}
+.button input:hover{
+    background: linear-gradient(138deg, rgba(30,35,35,255), rgba(252,128,56,255));
+    transition: 0.5s ease-in-out;
+    color: white;
+}
+.button input[type="submit"]:hover{
+    cursor: pointer;
+}
+.title{
+    position: relative;
+    font-size: 25px;
+    text-shadow: 0px 0px 2px;
+}
+.title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 75px;
+    border-radius: 5px;
+    height: 3px;
+    background-color: linear-gradient(138deg, rgba(252,128,56,255), rgba(30,35,35,255));
+}
+.contact{
+    align-items: center;
+    /* border: 1px solid black; */
+    justify-content: center;
+}
+textarea{
+    resize: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    /* float: right; */
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    letter-spacing: 3px;
+    transform: translateX(1850%);
+}
